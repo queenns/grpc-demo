@@ -1,0 +1,14 @@
+server:
+  port: 1111
+spring:
+  application:
+    name: grpc-demo-client
+grpc:
+  client:
+    advert-search:
+      address: 'static://127.0.0.1:50051'
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: plaintext
+
+

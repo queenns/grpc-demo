@@ -1,0 +1,17 @@
+# maven ignore
+target/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# package ignore (optional)
+# *.jar
+# *.war
+# *.zip
+# *.tar
+# *.tar.gz
+/build/
+/bin
